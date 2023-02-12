@@ -8,7 +8,7 @@ export function Header({
   started: boolean;
   endGame: () => void;
 }) {
-  const [secondsRemaining, setSecondsRemaining] = useState<number>(40);
+  const [secondsRemaining, setSecondsRemaining] = useState<number>(300);
   const intervalId = useRef<NodeJS.Timer | null>(null);
 
   function start() {
