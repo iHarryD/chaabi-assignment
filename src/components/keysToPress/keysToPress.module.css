@@ -1,0 +1,27 @@
+.keys-container {
+  align-items: center;
+  background: var(--secondary-bg-clr);
+  border-radius: 8px;
+  color: var(--secondary-text-clr);
+  display: flex;
+  font-size: max(2.6vw, 1.25rem);
+  justify-content: center;
+  padding: 0.75em 1.5em;
+}
+
+.key {
+  font-weight: 600;
+  opacity: var(--faded-text-opacity);
+  padding: 0 0.25rem;
+  transition: all 200ms;
+}
+
+.active-key {
+  opacity: 1;
+  transform: scale(1.25);
+  padding: 0 0.5em;
+}
+
+.frozen-key {
+  color: var(--red-clr);
+}
