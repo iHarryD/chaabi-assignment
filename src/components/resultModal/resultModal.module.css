@@ -1,0 +1,49 @@
+.modal-container {
+  background: var(--secondary-bg-clr);
+  border-radius: 12px;
+  box-shadow: 0 1px 8px 0px #0005;
+  color: var(--secondary-text-clr);
+  padding: max(2.6vw, 1.2rem);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.categories-container {
+  display: grid;
+  gap: max(1vw, 28px);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.category {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  gap: max(0.8vw, 8px);
+}
+
+.title {
+  font-size: max(1.6vw, 0.8rem);
+  opacity: var(--faded-text-opacity);
+}
+
+.score {
+  font-size: max(2.6vw, 1rem);
+}
+
+.restart-btn {
+  background: var(--accent-clr);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: var(--accent-text-clr);
+  cursor: pointer;
+  font-size: max(1.5vw, 0.8rem);
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: max(2.3vw, 15px);
+  padding: max(1.25vw, 0.6rem);
+  text-align: center;
+  width: 100%;
+}
