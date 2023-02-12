@@ -1,0 +1,21 @@
+.header {
+  align-items: center;
+  display: flex;
+  font-size: max(2.3vw, 1.2rem);
+  font-weight: 600;
+  height: var(--header-height);
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.logo {
+  color: var(--accent-clr);
+}
+
+.timer {
+  color: #fff9;
+}
+
+.timer.alert {
+  color: var(--red-clr);
+}
