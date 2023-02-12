@@ -1,0 +1,12 @@
+.typing-box {
+  border: 2px solid currentColor;
+  border-radius: 8px;
+  font-size: max(1.5vw, 14px);
+  letter-spacing: 0.4vw;
+  padding: max(1.3vw, 8px) max(2vw, 12px);
+  text-align: center;
+}
+
+.typing-box.frozen {
+  border-color: var(--red-clr);
+}
