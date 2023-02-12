@@ -1,0 +1,11 @@
+:root {
+  --accent-clr: #b15ee9;
+  --accent-text-clr: #000;
+  --faded-text-opacity: 0.5;
+  --header-height: 50px;
+  --primary-bg-clr: #1d1d1d;
+  --primary-text-clr: #fff;
+  --red-clr: #e62a2a;
+  --secondary-bg-clr: #222;
+  --secondary-text-clr: #fff;
+}
