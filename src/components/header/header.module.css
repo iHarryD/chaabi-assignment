@@ -6,6 +6,10 @@
   height: var(--header-height);
   justify-content: space-between;
   padding: 0 1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .logo {
