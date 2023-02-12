@@ -45,7 +45,9 @@ function App() {
     setGameStatus(GameStatus.STARTED);
     const currentIndex = input.length;
     const keyPressed = e.target.value[currentIndex];
-    if (keyPressed === keys[currentIndex]) {
+    if (
+      keyPressed.toLocaleLowerCase() === keys[currentIndex].toLocaleLowerCase()
+    ) {
       setFreeze(false);
       setInput(e.target.value);
       dispatch(hit());
